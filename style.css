@@ -37,6 +37,9 @@ label {
   width: 28rem;
 }
 .btn-add {
+  display: flex;
+  justify-content: center;
+  align-items: center ;
   width: 10rem;
   height: 4rem;
   top: 2rem;
@@ -48,9 +51,7 @@ label {
   position: relative;
   right: 1rem;
   border-radius: 0.5rem;
-    display: flex;
-  justify-content: center;
-  align-items: center ;
+  
 }
 li {
   list-style: none;
